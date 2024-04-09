@@ -8,6 +8,52 @@
     <title>Document</title>
   </head>
   <body>
+    <div class="container">
+      <form>
+        <label for="user_name"
+          >First Name :
+          <input type="name" name="name" placeholder="John" id="user_name" />
+        </label>
+
+        <label for="user_email"
+          >Email :
+          <input
+            type="email"
+            name="email"
+            placeholder="email@gmail.com"
+            id="user_email"
+          />
+        </label>
+        <label for="user_phone"
+          >Phone :
+          <input type="phone" name="phone" placeholder="+380" id="user_phone" />
+        </label>
+
+        <p>Віберіть один з варіантів :</p>
+        <label> <input type="radio" name="color" value="Red" /> Red</label>
+        <label> <input type="radio" name="color" value="White" /> White</label>
+        <label>
+          <input type="radio" name="color" value="Green" checked /> Green</label
+        >
+        <label> <input type="radio" name="Black" value="Red" /> Black</label>
+
+        <p>Виберіть розмір:</p>
+        <label>
+          <input type="radio" name="size" value="sm" />
+          Small
+        </label>
+        <label>
+          <input type="radio" name="size" value="md" checked />
+          Medium
+        </label>
+        <label>
+          <input type="radio" name="size" value="lg" checked />
+          Large
+        </label>
+
+        <button type="submit">Відправити форму регистраціЇ</button>
+      </form>
+    </div>
     <script src="script.js"></script>
   </body>
 </html>
