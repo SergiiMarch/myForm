@@ -3,28 +3,17 @@ body {
   line-height: 1.5;
 }
 
-form {
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: antiquewhite;
   width: 300px;
+  margin: 0 auto;
+}
+
+.form {
   display: flex;
   flex-direction: column;
-  gap: 12px;
-}
-label {
-  display: flex;
-  flex-direction: column;
-}
-input {
-  padding: 4px;
-  font-family: inherit;
-}
-button {
-  width: 150px;
-  height: 50px;
-  border-radius: 12px;
-  background-color: beige;
-  color: black;
-}
-button:hover {
-  background-color: blue;
-  color: white;
 }
