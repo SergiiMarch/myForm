@@ -6,6 +6,9 @@ const refs = {
 
 refs.form.addEventListener("input", handleFormInput);
 
-function handleFormInput(e) {
-  console.log(e.target);
+function handleFormInput({ target }) {
+  if (target.name === "quantity") {
+    console.log(quantity.value);
+    amount.textContent = quantity.value;
+  }
 }

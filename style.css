@@ -17,3 +17,8 @@ body {
   display: flex;
   flex-direction: column;
 }
+.title {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 14px;
+  text-decoration-line: overline;
+}
