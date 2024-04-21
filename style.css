@@ -14,8 +14,14 @@ body {
 }
 
 .form {
+  align-items: center;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+}
+
+label {
+  padding: 20px;
 }
 .title {
   font-family: "Times New Roman", Times, serif;
